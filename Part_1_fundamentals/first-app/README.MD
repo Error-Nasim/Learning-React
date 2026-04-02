@@ -4,6 +4,43 @@ This project is my first React practice app.
 
 This README is written for complete beginners so anyone can understand what is happening in this app just by reading it.
 
+## Installation
+
+First you need Node.js installed on your computer. If you don't have it installed, you can download it from here:
+
+https://nodejs.org
+
+After installation, check the version of Node and npm by running the following commands in your terminal:
+
+```bash
+node -v
+npm -v
+```
+
+If a version number is shown then you are good to go. Now, create a new folder with any name you want and navigate to that folder in your terminal.
+
+Now, run the following command to create a new React app.
+
+```bash
+npx create-react-app first-app
+```
+
+This will create a React app named `first-app` in your folder with all the necessary files and folders needed for a React app. But before going deep into the `first-app` folder, we need to make some changes.
+
+As React 19 is out and with its all new issues and bugs, I'll be using React 18 for this series. So, we need to install React 18 in our app. To do that, navigate to the `first-app` folder in your terminal and run the following command.
+
+```bash
+npm install react@18 react-dom@18
+```
+
+This will install React 18 in your app. Now, you are ready to go. To start the app, run the following command.
+
+```bash
+npm start
+```
+
+This will start the app in your default browser. You can also open the app in your browser by going to http://localhost:3000/.
+
 ## 1. What This App Does
 
 This app shows simple text on the screen using React components.
